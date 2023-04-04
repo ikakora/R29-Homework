@@ -96,19 +96,19 @@ if(gigosResults.length == 4) {
     }
 } else if(gigosResults.length == 3) {
     if(gigosResults[0] >= 25 && gigosResults[1] >= 25 && gigosResults[2] >= 25) {
-        console.log(`${4 - gigosTestResults.length} გამოცდაც და ეგაა`);                 // აქ რა შეცდომაა? მეძინება მაგრად ხვალ კიდევ ვნახავ :)))
+        console.log(`${4 - gigosResults.length} გამოცდაც და ეგაა`);
     } else {
         console.log('მომავალ წელს გამოიარე');
     }
 } else if(gigosResults.length == 2) {
     if(gigosResults[0] >= 25 && gigosResults[1] >= 25) {
-        console.log(`${4 - gigosTestResults.length} გამოცდაც და ეგაა`);
+        console.log(`${4 - gigosResults.length} გამოცდაც და ეგაა`);
     } else {
         console.log('მომავალ წელს გამოიარე');
     }
 } else if(gigosResults.length == 1) {
     if(gigosResults[0] >= 25) {
-        console.log(`${4 - gigosTestResults.length} გამოცდაც და ეგაა`);
+        console.log(`${4 - gigosResults.length} გამოცდაც და ეგაა`);
     } else {
         console.log('მომავალ წელს გამოიარე');
     }
